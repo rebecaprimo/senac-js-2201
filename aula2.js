@@ -31,3 +31,5 @@ repeticao();
 function diretoNoElemento(){
     console.log('olá mundo!') 
 }
+
+ 
