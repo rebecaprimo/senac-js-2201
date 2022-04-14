@@ -47,7 +47,7 @@ document.querySelector('input.btn').addEventListener('click', function(adicionar
     //Colocamos o texto
     LI.appendChild(TEXTO);
 
-    //Criamos o elemento A
+    //Criamos o elemento Agit 
     const A = document.createElement('a');
     A.className = 'delete-item secondary-content';
     A.href = '#';
