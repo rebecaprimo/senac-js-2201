@@ -23,7 +23,7 @@ console.log(IDADE);
 document.querySelector('input.btn').addEventListener('click', function(e){
     
     e.preventDefault();
-    const tarefa = '{tarefa: ' + document.querySelector('input#task').value + '}';
+    const tarefa = '{"tarefa": ' + document.querySelector('input#task').value + '}';
     localStorage.setItem('tarefa', tarefa);
 });
 
