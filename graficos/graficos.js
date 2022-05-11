@@ -1,3 +1,14 @@
+
+
+function mostraCotacao(){
+    fetch('10.135.236.34:5500/AJAX/cotacoes.html').then(function(resultado){
+        return resultado.text();
+    }).then(function(cotacoes){
+
+        var retJson = JSON.parse(ret);
+
+        console.log(retJson[])
+
 new Morris.Line({
     element: 'line',
     data: [
